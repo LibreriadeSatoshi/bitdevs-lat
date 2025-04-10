@@ -37,4 +37,4 @@ All site configurations are contained in `config.toml`.
 
 Thanks to [BitDevs NYC](https://github.com/BitDevsNYC/BitDevsNYC.github.io) for the
 Jekyll site that this site is based on, and to [BitDevs LA](https://bitdevsla.org) for creating
-this [Zola](https://www.getzola.org) BitDevs template
+this [Zola](https://www.getzola.org) BitDevs template.
