@@ -49,7 +49,7 @@ Los temas provienen de varias fuentes, como [Bitcoin Optech](https://bitcoinops.
 
 Estamos muy contentos de presentar seminario socrático #3 [Seminario Socrático](/about)!
 Un agradecimiento especial a nuestros sponsors [Libreria de Satoshi](https://libreriadesatoshi.com/)
-por las bebidas y comida y por confiarnos estas instalaciones a [Southteams]().
+por las bebidas y comida y por confiarnos estas instalaciones a .
 
 Tenemos grupo en signal! [Signal](https://signal.group/#CjQKIIG3VsgXrejgIrt8M-d1fYXJTPAUtwt3GC07-siuxuH2EhBiWLhmZ4DvqWJ_6nkxnVZH)
 
