@@ -7,9 +7,9 @@ meetup_id = "evt_3nfPwtekrjrYXYbq"
 
 ### Cronograma
 
-18:30hrs Birras y empanadas por Librería de Satoshi
+18:30hrs Birras y empanadas por Librería de Satoshi / B4OS
 
-19:00hrs Seminario Socrático por Librería de Satoshi
+19:00hrs Seminario Socrático por Librería de Satoshi / B4OS
 
 21:00hrs Cierre y Networking
 
@@ -49,10 +49,10 @@ Los temas provienen de varias fuentes, como [Bitcoin Optech](https://bitcoinops.
 ### Anuncios
 
 Estamos muy contentos de presentar seminario socrático #3 [Seminario Socrático](/about)!
-Un agradecimiento especial a nuestros sponsors [Libreria de Satoshi](https://libreriadesatoshi.com/)
-por las bebidas y comida y por confiarnos estas instalaciones a Southteams.
+Un agradecimiento especial a nuestros sponsors [Libreria de Satoshi / B4OS](https://libreriadesatoshi.com/)
+por las bebidas y comida, y por confiarnos estas instalaciones a [Southteams](https://southteams.com/).
 
-Tenemos grupo en signal! [Signal](https://signal.group/#CjQKIIG3VsgXrejgIrt8M-d1fYXJTPAUtwt3GC07-siuxuH2EhBiWLhmZ4DvqWJ_6nkxnVZH)
+Tenemos grupo en signal! [Únete](https://signal.group/#CjQKIIG3VsgXrejgIrt8M-d1fYXJTPAUtwt3GC07-siuxuH2EhBiWLhmZ4DvqWJ_6nkxnVZH)
 
 
 #### Estadísticas de la Red
