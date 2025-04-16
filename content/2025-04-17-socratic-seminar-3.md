@@ -7,9 +7,9 @@ meetup_id = "evt_3nfPwtekrjrYXYbq"
 
 ### Cronograma
 
-18:30hrs Birras y empanadas por Librería de Satoshi
+18:30hrs Birras y empanadas por Librería de Satoshi / B4OS
 
-19:00hrs Seminario Socrático por Librería de Satoshi
+19:00hrs Seminario Socrático por Librería de Satoshi / B4OS
 
 21:00hrs Cierre y Networking
 
@@ -27,6 +27,7 @@ Respeta los diferentes pensamientos e ideas.
 
 - Complementa con imágenes or websites las intervenciones verbales preparadas de más de 3 min, recuerda no extenderte más de 10 min, todas las presentaciones incluyendo preguntas son de 10 min como máximo.
 
+
 ### Recordatorios
 No fotos, no videos, pero audio recoding = OK
 
@@ -38,26 +39,28 @@ Deja el espacio limpio.
 El seminario socrático de BitDevs o Bitcoin Developers es un evento mensual diseñado para promover el debate, el intercambio de información y la discusión sobre temas técnicos relacionados con Bitcoin y su ecosistema. Estos seminarios siguen un formato participativo, en el que se discuten y se hacen preguntas sobre temas recopilados por los miembros del grupo antes del evento.
 Los temas provienen de varias fuentes, como [Bitcoin Optech](https://bitcoinops.org/en/publications/), [Delving Bitcoin](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/), [lightning-dev](https://lists.linuxfoundation.org/pipermail/lightning-dev/), [Murch's Twitter](https://twitter.com/murchandamus), [Bitcoin PR Review Club](https://bitcoincore.reviews/), y pull requests en repositorios populares de proyectos Bitcoin.
 
-
 - Los Seminarios Socráticos se celebran bajo la Regla de **[Chatham House](https://www.chathamhouse.org/about-us/chatham-house-rule)**:
 - Puedes compartir la información recibida, pero no reveles la identidad de quien la ha dicho.
 - Cuando una reunión, o parte de ella, se celebra bajo la Regla de Chatham House, los participantes son libres de utilizar la información recibida, pero no se puede revelar ni la identidad ni la afiliación del orador u oradores, ni dónde se escucho la información, ni la de ningún otro participante.
 
 [Source](https://bitdevs.org/running-a-great-socratic-seminar/)
 
+
 ### Anuncios
 
 Estamos muy contentos de presentar seminario socrático #3 [Seminario Socrático](/about)!
-Un agradecimiento especial a nuestros sponsors [Libreria de Satoshi](https://libreriadesatoshi.com/)
-por las bebidas y comida y por confiarnos estas instalaciones a .
+Un agradecimiento especial a nuestros sponsors [Libreria de Satoshi / B4OS](https://libreriadesatoshi.com/)
+por las bebidas y comida, y por confiarnos estas instalaciones a [Southteams](https://southteams.com/).
 
-Tenemos grupo en signal! [Signal](https://signal.group/#CjQKIIG3VsgXrejgIrt8M-d1fYXJTPAUtwt3GC07-siuxuH2EhBiWLhmZ4DvqWJ_6nkxnVZH)
+Tenemos grupo en signal! [Únete](https://signal.group/#CjQKIIG3VsgXrejgIrt8M-d1fYXJTPAUtwt3GC07-siuxuH2EhBiWLhmZ4DvqWJ_6nkxnVZH)
+
 
 #### Estadísticas de la Red
 - [mempool.space](https://mempool.space/)
 - [clarkmoody.com](https://bitcoin.clarkmoody.com/dashboard/)
 - [Block Fee Rates](https://mempool.space/graphs/mining/block-fee-rates#1m)
 - [Block Rewards 1m](https://mempool.space/graphs/mining/block-rewards#1m)
+
 
 #### Warmup
 - [MIT Hackathon](https://mitbitcoin.devpost.com/)
@@ -67,8 +70,10 @@ Tenemos grupo en signal! [Signal](https://signal.group/#CjQKIIG3VsgXrejgIrt8M-d1
 - [Trump confirms plans for strategic ‘Crypto’ reserve](https://www.whitehouse.gov/fact-sheets/2025/03/fact-sheet-president-donald-j-trump-establishes-the-strategic-bitcoin-reserve-and-u-s-digital-asset-stockpile/)
 - [Phoenix wallet is back in the USA](https://x.com/acinq_co/status/1909651903421554833)
 
+
 #### Lanzamientos
 - [Nunchuck Group Wallet](https://nunchuk.io/blog/group-wallet)
+- [Bitcoin v29.0 Released](https://delvingbitcoin.org/t/bitcoin-core-29-0-released/1600)
 - [Bitcoin v29.0 Release Candidate Testing Guide](https://github.com/bitcoin-core/bitcoin-devwiki/wiki/29.0-Release-Candidate-Testing-Guide)
 
 
@@ -87,7 +92,6 @@ Tenemos grupo en signal! [Signal](https://signal.group/#CjQKIIG3VsgXrejgIrt8M-d1
 #### Projects
 
 - [Zip Zap Protocol](https://github.com/sbddesign/zipzap)
-
 
 
 #### Oportunidades educativas o laborales
