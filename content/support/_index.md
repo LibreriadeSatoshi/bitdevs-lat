@@ -6,16 +6,7 @@ description = "Our supporters"
 Un agradecimiento especial a nuestros colaboradores.
 
 <br>
-<br>
 
-<a href="https://lacrypta.ar/">
- <img src="/LaCrypta_Logo_Negro.jpg" alt="La Crypta Logo" style="width:20%;height:20%;border:0;">
-</a>
-
-
-[La Crypta](https://lacrypta.ar/) - La Crypta es una organización argentina dedicada al desarrollo, la educación y el
-intercambio de conocimientos dentro de los ecosistemas Bitcoin y Nostr.
-<br>
 <br>
 
 <a href="https://libreriadesatoshi.com/">
