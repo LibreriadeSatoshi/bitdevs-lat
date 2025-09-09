@@ -6,7 +6,7 @@ description = "Todo sobre este sitio"
 BitDevs Latino está inspirado en el original [BitDevs NYC](https://bitdevs.org) para ayudar a desarrollar una
 comunidad en Latinoamerica  de personas interesadas en discutir y participar en la investigación y desarrollo de
 Bitcoin y protocolos y software relacionados. Puedes estar bien versado o ser nuevo en los temas, todos son bienvenidos.
-Ten en cuenta: la discusión será técnica.
+Ten en cuenta que la discusión será técnica.
 
 ### Seminarios Socráticos
 Nuestros [Seminarios Socráticos] están formateados para fomentar el debate,
