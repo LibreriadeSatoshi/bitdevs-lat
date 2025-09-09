@@ -1,5 +1,5 @@
 +++
-title = "Bitdevs Latino Seminario Socratico #0 "
+title = "Bitdevs Latino Seminario Socratico #0"
 template = "post.html"
 [extra]
 meetup_id = ""
