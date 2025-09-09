@@ -1,8 +1,8 @@
 # The URL the site will be built for
 base_url = "https://www.bitdevs.lat "
 
-title = "BitDevsLat"
-description = "BitDevs Lat es una comunidad en latinoamerica para aquellos interesados en discutir y participar en la investigación y desarrollo de Bitcoin y protocolos y software relacionados."
+title = "BitDevs Latino"
+description = "BitDevs Latino es una comunidad en latinoamerica para aquellos interesados en discutir y participar en la investigación y desarrollo de Bitcoin y protocolos y software relacionados."
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -23,6 +23,6 @@ highlight_code = true
 [extra]
 # Put all your custom variables here
 
-github = "https://github.com/LibreriadeSatoshi/bitdevs-lat#"
+github = "https://github.com/LibreriadeSatoshi/bitdevs-lat"
 meetup = ""
 discord = ""
