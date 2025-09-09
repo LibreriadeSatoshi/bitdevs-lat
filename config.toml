@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://www.bitdevs.lat "
+base_url = "https://www.bitdevs.lat"
 
 title = "BitDevs Latino"
 description = "BitDevs Latino es una comunidad en latinoamerica para aquellos interesados en discutir y participar en la investigación y desarrollo de Bitcoin y protocolos y software relacionados."
