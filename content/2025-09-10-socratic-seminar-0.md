@@ -96,6 +96,7 @@ Grants y entrenamiento: [B4OS](B4os.dev)
 
 
 #### Security
+- [NPM Supply-Chain Attack](https://www.aikido.dev/blog/npm-debug-and-chalk-packages-compromised) 
 - [Not in The Prophecies: Practical Attacks on Nostr](https://eprint.iacr.org/2025/1459)
 - [Qubic reorgs Monero Blockchain](https://qubic.org/pr/qubic-overtakes-monero-s-hash-rate-in-live-51-takeover-demo)
 
