@@ -11,7 +11,7 @@ meetup_id = ""
 - 🕙 Horarios:
  - 🌴 10:00 am – 12:00 pm Los Ángeles (PST)
  - 🌎 12:00 pm – 2:00 pm CDMX / Perú / Colombia / El Salvador
- - 🇨🇱 1:00 pm – 3:00 pm Chile
+ - 🇨🇱 2:00 pm – 4:00 pm Chile
  - 🇦🇷 2:00 pm – 4:00 pm Argentina / Uruguay
  - 🇪🇸 7:00 pm – 9:00 pm España
 
@@ -23,13 +23,14 @@ meetup_id = ""
 - Sé cortés y amable. El objetivo es la búsqueda de una comprensión más profunda.
 Respeta los diferentes pensamientos e ideas.
 
-- Complementa con imágenes or websites las intervenciones verbales preparadas de más de 3 min, recuerda no extenderte más de 10 min, todas las presentaciones incluyendo preguntas son de 10 min como máximo.
+- Para las presentaciones, complementa con imágenes or websites las intervenciones verbales preparadas de más de 3 min, recuerda no extenderte más de 5 min.
+Todas las presentaciones incluyendo preguntas son de 10-15 min como máximo.
 
 ### Recordatorios
 - No se permiten fotografías, vídeos o grabaciones de audio
 - Nos adherimos a "[the Chatham House Rule](https://www.chathamhouse.org/about-us/chatham-house-rule)"
 - Mantener el enfoque en Bitcoin y tecnologías afines; no se permite la promoción de otras criptomonedas.
-- Mutear tu mic si no estás hablando. 
+- Mutear tu micrófono si no estás hablando. 
 - Respetar los tiempos de intervención, tratar de ser concis@
 - Sugiere temas para el siguiente Seminario Socrático! [¿Donde encontrar temas para futuros seminarios?](/about/find-topics)
 

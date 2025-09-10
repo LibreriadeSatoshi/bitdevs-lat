@@ -23,8 +23,21 @@ seminarios socráticos para discutir en los meetups de BitDev BA. Si tienes otro
   - [Lightning Dev Kit](https://github.com/orgs/lightningdevkit)
   - [Bitcoin Dev Kit](https://github.com/bitcoindevkit)
 
-### Otros Meetups
-  - [Bitcoin Core Review Club](https://bitcoincore.reviews/)
+
+### Meetups en Español:
+
+[BitDevs Barcelona](https://bitdevsbarcelona.org)
+[BitDevs BA](https://www.bitdevsba.org)
+[CDMX BitDevs](https://www.cdmxbitdevs.org)
+[BitDevs Córdoba](https://bitdevscordoba.org)
+[BitDevs El Salvador](https://bitdevelsalvador.com)
+[BitDevs GDL (BTC GDL)](https://bitdevs.btcgdl.com)
+[Santiago BitDevs](https://santiagobitdevs.com)
+[BitDevs Madrid](https://bitdevsmadrid.org)
+
+
+### Meetups en Inglés:
+
   - [BitDevs NYC](https://bitdevs.org)
   - [BitDevs SF](https://www.sfbitcoindevs.org/)
   - [BitDevs London](https://www.meetup.com/London-Bitcoin-Devs/)
@@ -36,3 +49,6 @@ seminarios socráticos para discutir en los meetups de BitDev BA. Si tienes otro
 ### [Freenode IRC](https://freenode.net/)
   - #bitcoin-core-pr-reviews
   - #bitcore-core-dev
+
+### Bitcoin Core Review Club
+  - [Bitcoin Core Review Club](https://bitcoincore.reviews/)

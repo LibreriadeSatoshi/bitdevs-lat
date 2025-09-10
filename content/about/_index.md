@@ -1,15 +1,17 @@
 +++
-title = "about"
+title = "About"
 description = "Todo sobre este sitio"
 +++
 
-BitDevs Latino está inspirado en el original [BitDevs NYC](https://bitdevs.org) para ayudar a desarrollar una
-comunidad en Latinoamerica  de personas interesadas en discutir y participar en la investigación y desarrollo de
-Bitcoin y protocolos y software relacionados. Puedes estar bien versado o ser nuevo en los temas, todos son bienvenidos.
-Ten en cuenta que la discusión será técnica.
+Nuestro meetup de BitDevs Latino está inspirado en el original [BitDevs NYC](https://bitdevs.org) para ayudar a desarrollar una
+comunidad de desarrolladores, criptógrafos y de personas interesadas en discutir y participar en la investigación y desarrollo de
+Bitcoin, protocolos y software relacionados.
+El objetivo de este Bitdevs es que devs en sus comunidades locales puedan replicar presencialmente.
+Todos son Bienvenidos ya seas experimentado o ser nuevo. 
+Ten en cuenta que la discusión será técnica y sólo enfocada a Bitcoin.
 
 ### Seminarios Socráticos
-Nuestros [Seminarios Socráticos] están formateados para fomentar el debate,
+Nuestros [Seminarios Socráticos] fomentan el debate,
 el intercambio de información y la discusión animada. En las semanas previas al evento, los miembros del meetup recopilan
 temas de discusión de diversas fuentes: pull requests en repositorios git populares (por ejemplo, Bitcoin Core, lnd, c-lightning,
 Joinmarket, Elements Alpha y Electrum), papers de investigación, posts técnicos en blogs, logs de IRC, monitores de red y más. Para
@@ -21,7 +23,7 @@ meetups pasados y en este sitio web. La parte de discusión del evento NUNCA se 
 conceptos básicos de Bitcoin para extraer el máximo valor de nuestros eventos Socráticos.
 
 Por favor, contacta a los organizadores si deseas presentar en un futuro evento Socrático o tienes un tema
-recomendado para discusión: bitdevsba@gmail.com o encuentra el PR en el
+recomendado para discusión: hola@b4os.dev o encuentra el PR en el
 y agrega un comentario.
 
 Hay diferentes requisitos para las presentaciones dependiendo de la
