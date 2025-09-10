@@ -9,11 +9,11 @@ meetup_id = ""
 
 - 📅 Miércoles, 10 de Septiembre
 - 🕙 Horarios:
- - 🌴 10:00 am – 12:00 pm Los Ángeles (PST)
- - 🌎 12:00 pm – 2:00 pm CDMX / Perú / Colombia / El Salvador
- - 🇨🇱 2:00 pm – 4:00 pm Chile
- - 🇦🇷 2:00 pm – 4:00 pm Argentina / Uruguay
- - 🇪🇸 7:00 pm – 9:00 pm España
+  - 🌴 10:00 am – 12:00 pm Los Ángeles (PST)
+  - 🌎 12:00 pm – 2:00 pm CDMX / Perú / Colombia / El Salvador
+  - 🇨🇱 2:00 pm – 4:00 pm Chile
+  - 🇦🇷 2:00 pm – 4:00 pm Argentina / Uruguay
+  - 🇪🇸 7:00 pm – 9:00 pm España
 
 ### Lugar
 - Online 
