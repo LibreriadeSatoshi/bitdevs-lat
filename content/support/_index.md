@@ -13,13 +13,16 @@ description = "Our supporters"
 <div style="display: flex; justify-content: space-around; align-items: flex-start;">
   <div style="text-align: center; flex: 1;">
     <a href="https://libreriadesatoshi.com/">
-      <img src="/libre_sato_logo.png" alt="Libreria de satoshi Logo" style="width:40%;height:20%;border:0;">
+      <img src="/libre_sato_logo.png" alt="Libreria de satoshi Logo" style="width:60%;height:20%;border:0;">
     </a>
     <br>
-    <h6>La Librería de Satoshi hace la educación técnica de bitcoin accesible en tu idioma, con cursos y seminarios.<h6>
+    <h6>La Librería de Satoshi hace la educación técnica de Bitcoin accesible, con cursos y seminarios.<h6>
   </div>
   <div style="text-align: center; flex: 1;">
-      <a href="https://b4os.dev"><h2>Bitcoin 4 Open Source</h2></a>
+      <a href="https://b4os.dev">
+        <img src="/b4os.png" alt="B4OS Logo" style="width:40%;height:20%;border:0;">
+      </a>
+      <br>
     <h6>Es un entrenamiento gratuito para devs.</h6>
   </div>
 </div>
