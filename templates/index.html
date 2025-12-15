@@ -28,7 +28,11 @@
           <nav class="Header-nav">
             <a href="/about">Sobre</a>
             <a href="/events">Eventos</a>
-            <a href="/support" target="_blank" rel="noopener nofollow">Apoyo</a>
+            <a href="/support">Apoyo</a>
+            <button
+              id="theme-toggle"
+              aria-label="change dark/ligth mode"
+            ></button>
           </nav>
         </div>
         <div class="Header-border">
@@ -41,7 +45,7 @@
         <p class="Home-about">{{ config.description }}</p>
 
         <div class="Home-posts">
-          <h2 class="Home-posts-title">Upcoming and Recent Events</h2>
+          <h2 class="Home-posts-title">Eventos Proximos y Recientes</h2>
           {% for page in section.pages %}
           <div class="Home-posts-post">
             <span class="Home-posts-post-date"
@@ -56,55 +60,6 @@
         </div>
       </div>
       {% endblock content %}
-
-      <script type="application/ld+json">
-        {
-          "@context": "http://www.schema.org",
-          "@type": "LocalBusiness",
-          "name": "NashBitDevs",
-          "url": "https://nashbitdevs.org/",
-          "description": "NashBitDevs is a community in the Nashville area for those interested in discussing and participating in the research and development of Bitcoin and related protocols and software.",
-          "founder": [
-            {
-              "@type": "Person",
-              "name": "Steve Myers"
-            },
-            {
-              "@type": "Person",
-              "name": "Matthew Ramsden"
-            }
-          ],
-          "sponsor": [
-            {
-              "@type": "Corporation",
-              "name": "Bitcoin Park",
-              "url": "https://bitcoinpark.co/",
-              "sameAs": "https://twitter.com/bitcoinpark_"
-            }
-          ],
-          "member": [
-            {
-              "@type": "Person",
-              "name": "Steve Myers"
-            },
-            {
-              "@type": "Person",
-              "name": "Matthew Ramsden"
-            }
-          ],
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Nashville",
-            "addressRegion": "Tennessee",
-            "addressCountry": "United States of America"
-          },
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "contactType": "Organizer",
-            "email": "contact@nashbitdevs.org"
-          }
-        }
-      </script>
 
       <footer class="Footer">
         <div class="Footer-border">
@@ -125,6 +80,33 @@
         </div>
       </footer>
     </div>
-    <script> src="/theme.js"</script>
+    <script type="text/javascript">
+      document.addEventListener("DOMContentLoaded", () => {
+        const themeToggle = document.getElementById("theme-toggle");
+        const body = document.body;
+
+        if (!themeToggle) {
+          console.error("El botón 'theme-toggle' no fue encontrado en el DOM.");
+          return;
+        }
+
+        const STORAGE_KEY = "theme";
+        const currentTheme = localStorage.getItem(STORAGE_KEY) || "light";
+
+        body.classList.toggle("dark", currentTheme === "dark");
+
+        themeToggle.textContent = currentTheme === "dark" ? "☀️" : "🌙";
+
+        themeToggle.addEventListener("click", () => {
+          body.classList.toggle("dark");
+
+          const theme = body.classList.contains("dark") ? "dark" : "light";
+
+          localStorage.setItem(STORAGE_KEY, theme);
+
+          themeToggle.textContent = theme === "dark" ? "☀️" : "🌙";
+        });
+      });
+    </script>
   </body>
 </html>

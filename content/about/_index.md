@@ -27,6 +27,6 @@ recomendado para discusión: hola@b4os.dev o encuentra el PR en el
 y agrega un comentario.
 
 Hay diferentes requisitos para las presentaciones dependiendo de la
-naturaleza del proyecto. Revisa nuestra lista de sugerencias para [dónde encontrar temas](/about/find-topics) para futuros seminarios.
+naturaleza del proyecto. Revisa nuestra lista de sugerencias [dónde encontraras temas](/about/find-topics) para futuros seminarios.
 
 [Seminarios Socráticos]: https://es.wikipedia.org/wiki/M%C3%A9todo_socr%C3%A1tico#Seminario_socr%C3%A1tico

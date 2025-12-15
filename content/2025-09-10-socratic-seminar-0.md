@@ -1,6 +1,6 @@
 +++
 title = "Bitdevs Latino Seminario Socratico #0"
-template = "post.html"
+date = 2025-09-10
 [extra]
 meetup_id = ""
 +++
