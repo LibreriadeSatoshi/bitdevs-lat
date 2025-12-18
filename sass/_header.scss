@@ -2,10 +2,9 @@
   margin-bottom: 0.75rem;
 
   &-border {
-    opacity: 0.4;
-    margin-top: 0.4rem;
-    overflow: hidden;
-    user-select: none;
+    border-bottom: 1px solid var(--color-font-primary);
+    opacity: 0.2;
+    margin-top: 0.8rem;
   }
 
   &-inner {

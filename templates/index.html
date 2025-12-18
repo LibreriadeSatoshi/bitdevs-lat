@@ -26,8 +26,7 @@
             <a href="/">{{ config.title }}</a>
           </div>
           <nav class="Header-nav">
-            <a href="/about">Sobre</a>
-            <a href="/events">Eventos</a>
+            <a href="/about">Acerca</a>
             <a href="/support">Apoyo</a>
             <button
               id="theme-toggle"
@@ -35,9 +34,7 @@
             ></button>
           </nav>
         </div>
-        <div class="Header-border">
-          ==============================================================================================================================================================
-        </div>
+        <div class="Header-border"></div>
       </header>
 
       {% block content %}
@@ -49,7 +46,7 @@
           {% for page in section.pages %}
           <div class="Home-posts-post">
             <span class="Home-posts-post-date"
-              >{{ page.date | date(format="%d-%m-%Y") }}</span
+              >{{ page.date | date(format="%Y-%m-%d") }}</span
             >
             <span class="Home-posts-post-arrow">&raquo;</span>
             <a class="Home-posts-post-title" href="{{ page.permalink }}"
@@ -62,9 +59,7 @@
       {% endblock content %}
 
       <footer class="Footer">
-        <div class="Footer-border">
-          ==============================================================================================================================================================
-        </div>
+        <div class="Footer-border"></div>
         <div class="Footer-inner">
           <div class="Footer-source">
             <a
@@ -91,20 +86,30 @@
         }
 
         const STORAGE_KEY = "theme";
-        const currentTheme = localStorage.getItem(STORAGE_KEY) || "light";
+        
+        const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+
+        let currentTheme = localStorage.getItem(STORAGE_KEY);
+        if (currentTheme === null) {
+          currentTheme = prefersDarkScheme.matches ? "dark" : "light";
+        }
 
         body.classList.toggle("dark", currentTheme === "dark");
-
         themeToggle.textContent = currentTheme === "dark" ? "☀️" : "🌙";
 
         themeToggle.addEventListener("click", () => {
           body.classList.toggle("dark");
+          const newTheme = body.classList.contains("dark") ? "dark" : "light";
+          localStorage.setItem(STORAGE_KEY, newTheme);
+          themeToggle.textContent = newTheme === "dark" ? "☀️" : "🌙";
+        });
 
-          const theme = body.classList.contains("dark") ? "dark" : "light";
-
-          localStorage.setItem(STORAGE_KEY, theme);
-
-          themeToggle.textContent = theme === "dark" ? "☀️" : "🌙";
+        prefersDarkScheme.addEventListener("change", (e) => {
+            if (localStorage.getItem(STORAGE_KEY) === null) {
+                const newTheme = e.matches ? "dark" : "light";
+                body.classList.toggle("dark", e.matches);
+                themeToggle.textContent = newTheme === "dark" ? "☀️" : "🌙";
+            }
         });
       });
     </script>

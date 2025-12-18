@@ -1,11 +1,10 @@
 .Footer {
-  margin-top: 2rem;
+  margin-top: 4rem;
 
   &-border {
-    opacity: 0.4;
-    margin-bottom: 1em;
-    overflow: hidden;
-    user-select: none;
+    border-top: 1px solid var(--color-font-primary);
+    opacity: 0.2;
+    margin-bottom: 1.5rem;
   }
 
   &-inner {
