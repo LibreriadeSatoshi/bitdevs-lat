@@ -23,7 +23,14 @@
       <header class="Header">
         <div class="Header-inner">
           <div class="Header-logo">
-            <a href="/">{{ config.title }}</a>
+            <a href="/">
+              <img
+                src="/BitcoinLatam.png"
+                alt="BitcoinLatam Logo"
+                class="Header-logo-img"
+              />
+              {{ config.title }}</a
+            >
           </div>
           <nav class="Header-nav">
             <a href="/about">Acerca</a>
@@ -43,13 +50,14 @@
 
         <div class="Home-posts">
           <h2 class="Home-posts-title">Eventos Proximos y Recientes</h2>
-          {% for page in section.pages %}
+          {% set event_section = get_section(path="events/_index.md") %}
+          {% for page in event_section.pages %}
           <div class="Home-posts-post">
             <span class="Home-posts-post-date"
               >{{ page.date | date(format="%Y-%m-%d") }}</span
             >
             <span class="Home-posts-post-arrow">&raquo;</span>
-            <a class="Home-posts-post-title" href="{{ page.permalink }}"
+            <a class="Home-posts-post-title" href="{{ page.permalink }}"  
               >{{ page.title }}</a
             >
           </div>

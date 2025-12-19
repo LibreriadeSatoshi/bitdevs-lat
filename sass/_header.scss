@@ -15,9 +15,24 @@
 
   &-logo {
     font-size: 2.2rem;
+    display: flex;
+    align-items: center;
 
     @media (max-width: $small-screen) {
       font-size: 1.8rem;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+    }
+    
+    &-img {
+      height: 3.8rem;
+
+      @media (max-width: $small-screen) {
+        height: 2rem;
+      }
     }
   }
 
