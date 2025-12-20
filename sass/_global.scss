@@ -1,9 +1,40 @@
-html, body {
+// Light mode
+:root {
+  --color-bg-primary: #FFF;         
+  --color-font-primary: #333;
+  --color-primary-link: #FF9900;     
+  --color-button-icon: #f39c12;
+}
+
+// Dark mode
+body.dark {
+  --color-bg-primary: #1a1a1a;
+  --color-font-primary: #f0f0f0;
+  --color-primary-link: #FFBF69;
+  --color-button-icon: #f1c40f;
+}
+
+#theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin-left: 1.5rem;
+  color: var(--color-button-icon);
+  transition: color 0.4s;
+
+  &:hover {
+    color: rgba(var(--color-button-icon), 0.8);
+  }
+}
+
+body {
   font-family: $body-font;
   font-size: 16px;
   line-height: 1.5;
-  background-color: $background-color;
-  color: $font-color;
+  background-color: var(--color-bg-primary); 
+  color: var(--color-font-primary);
+  transition: background-color 0.4s, color 0.4s;
 
   @media (max-width: $large-screen) {
     font-size: 14px;
@@ -25,11 +56,11 @@ html, body {
 }
 
 a {
-  color: $primary-color;
+  color: var(--color-primary-link);
   text-decoration: none;
 
   &:hover {
-    color: rgba($primary-color, 0.8);
+    color: rgba(var(--color-primary-link), 0.8);
   }
 }
 

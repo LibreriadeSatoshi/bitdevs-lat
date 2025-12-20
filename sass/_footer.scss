@@ -1,11 +1,10 @@
 .Footer {
-  margin-top: 2rem;
+  margin-top: 4rem;
 
   &-border {
-    opacity: 0.4;
-    margin-bottom: 1em;
-    overflow: hidden;
-    user-select: none;
+    border-top: 1px solid var(--color-font-primary);
+    opacity: 0.2;
+    margin-bottom: 1.5rem;
   }
 
   &-inner {
@@ -13,11 +12,11 @@
     justify-content: space-between;
 
     a {
-      color: #333;
+      color: var(--color-font-primary);
       opacity: 0.4;
 
       &:hover {
-        color: $primary-color;
+        color: var(--color-primary-link);
         opacity: 1;
       }
     }

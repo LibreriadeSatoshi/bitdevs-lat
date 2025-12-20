@@ -2,10 +2,9 @@
   margin-bottom: 0.75rem;
 
   &-border {
-    opacity: 0.4;
-    margin-top: 0.4rem;
-    overflow: hidden;
-    user-select: none;
+    border-bottom: 1px solid var(--color-font-primary);
+    opacity: 0.2;
+    margin-top: 0.8rem;
   }
 
   &-inner {
@@ -16,9 +15,24 @@
 
   &-logo {
     font-size: 2.2rem;
+    display: flex;
+    align-items: center;
 
     @media (max-width: $small-screen) {
       font-size: 1.8rem;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+    }
+    
+    &-img {
+      height: 3.8rem;
+
+      @media (max-width: $small-screen) {
+        height: 2rem;
+      }
     }
   }
 
@@ -31,12 +45,12 @@
     }
 
     a {
-      color: #333;
+      color: var(--color-font-primary);
       opacity: 0.4;
       margin-left: 1.5rem;
 
       &:hover {
-        color: $primary-color;
+        color: var(--color-primary-link);
         opacity: 1;
       }
     }
