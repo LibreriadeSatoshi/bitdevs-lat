@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    <meta content="utf-8" http-equiv="encoding" />
+    <title>BitDevs Latino</title>
+
+    <meta
+      name="viewport"
+      content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="Site">
+      <header class="Header">
+        <div class="Header-inner">
+          <div class="Header-logo">
+            <a href="/">
+              <img
+                src="/BitcoinLatam.png"
+                alt="BitcoinLatam Logo"
+                class="Header-logo-img"
+              />
+              BitDevs Latino</a
+            >
+          </div>
+          <nav class="Header-nav">
+            <a href="/about">Acerca</a>
+            <a href="/support">Apoyo</a>
+            <button
+              id="theme-toggle"
+              aria-label="change dark/ligth mode"
+            ></button>
+          </nav>
+        </div>
+        <div class="Header-border"></div>
+      </header>
+
+      
+      <div class="Home">
+        <p class="Home-about">BitDevs Latino es una comunidad en latinoamerica para aquellos interesados en discutir y participar en la investigación y desarrollo de Bitcoin y protocolos y software relacionados.</p>
+
+        <div class="Home-posts">
+          <h2 class="Home-posts-title">Eventos Proximos y Recientes</h2>
+          
+          
+          <div class="Home-posts-post">
+            <span class="Home-posts-post-date"
+              >2025-09-10</span
+            >
+            <span class="Home-posts-post-arrow">&raquo;</span>
+            <a class="Home-posts-post-title" href="https:&#x2F;&#x2F;www.bitdevs.lat&#x2F;events&#x2F;socratic-seminar-0&#x2F;"  
+              >Bitdevs Latino Seminario Socratico #0</a
+            >
+          </div>
+          
+        </div>
+      </div>
+      
+
+      <footer class="Footer">
+        <div class="Footer-border"></div>
+        <div class="Footer-inner">
+          <div class="Footer-source">
+            <a
+              href="https:&#x2F;&#x2F;github.com&#x2F;LibreriadeSatoshi&#x2F;bitdevs-lat"
+              target="_blank"
+              rel="noopener nofollow"
+              >Source available on Github</a
+            >
+          </div>
+          <div class="Footer-rss">
+            <a href="/rss.xml">RSS Feed</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script type="text/javascript">
+      document.addEventListener("DOMContentLoaded", () => {
+        const themeToggle = document.getElementById("theme-toggle");
+        const body = document.body;
+
+        if (!themeToggle) {
+          console.error("El botón 'theme-toggle' no fue encontrado en el DOM.");
+          return;
+        }
+
+        const STORAGE_KEY = "theme";
+        
+        const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+
+        let currentTheme = localStorage.getItem(STORAGE_KEY);
+        if (currentTheme === null) {
+          currentTheme = prefersDarkScheme.matches ? "dark" : "light";
+        }
+
+        body.classList.toggle("dark", currentTheme === "dark");
+        themeToggle.textContent = currentTheme === "dark" ? "☀️" : "🌙";
+
+        themeToggle.addEventListener("click", () => {
+          body.classList.toggle("dark");
+          const newTheme = body.classList.contains("dark") ? "dark" : "light";
+          localStorage.setItem(STORAGE_KEY, newTheme);
+          themeToggle.textContent = newTheme === "dark" ? "☀️" : "🌙";
+        });
+
+        prefersDarkScheme.addEventListener("change", (e) => {
+            if (localStorage.getItem(STORAGE_KEY) === null) {
+                const newTheme = e.matches ? "dark" : "light";
+                body.classList.toggle("dark", e.matches);
+                themeToggle.textContent = newTheme === "dark" ? "☀️" : "🌙";
+            }
+        });
+      });
+    </script>
+  </body>
+</html>

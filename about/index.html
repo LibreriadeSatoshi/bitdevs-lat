@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    <meta content="utf-8" http-equiv="encoding" />
+    <title>BitDevs Latino</title>
+
+    <meta
+      name="viewport"
+      content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="Site">
+      <header class="Header">
+        <div class="Header-inner">
+          <div class="Header-logo">
+            <a href="/">
+              <img
+                src="/BitcoinLatam.png"
+                alt="BitcoinLatam Logo"
+                class="Header-logo-img"
+              />
+              BitDevs Latino</a
+            >
+          </div>
+          <nav class="Header-nav">
+            <a href="/about">Acerca</a>
+            <a href="/support">Apoyo</a>
+            <button
+              id="theme-toggle"
+              aria-label="change dark/ligth mode"
+            ></button>
+          </nav>
+        </div>
+        <div class="Header-border"></div>
+      </header>
+
+      
+<section>
+    <div class="page-content"><p>Nuestro meetup de BitDevs Latino está inspirado en el original <a href="https://bitdevs.org">BitDevs NYC</a> para ayudar a desarrollar una
+comunidad de desarrolladores, criptógrafos y de personas interesadas en discutir y participar en la investigación y desarrollo de
+Bitcoin, protocolos y software relacionados.
+El objetivo de este Bitdevs es que devs en sus comunidades locales puedan replicar presencialmente.
+Todos son Bienvenidos ya seas experimentado o ser nuevo.
+Ten en cuenta que la discusión será técnica y sólo enfocada a Bitcoin.</p>
+<h3 id="seminarios-socraticos">Seminarios Socráticos</h3>
+<p>Nuestros <a href="https://es.wikipedia.org/wiki/M%C3%A9todo_socr%C3%A1tico#Seminario_socr%C3%A1tico">Seminarios Socráticos</a> fomentan el debate,
+el intercambio de información y la discusión animada. En las semanas previas al evento, los miembros del meetup recopilan
+temas de discusión de diversas fuentes: pull requests en repositorios git populares (por ejemplo, Bitcoin Core, lnd, c-lightning,
+Joinmarket, Elements Alpha y Electrum), papers de investigación, posts técnicos en blogs, logs de IRC, monitores de red y más. Para
+completar la reunión, los miembros presentan proyectos de código abierto, empresas, investigaciones y otros materiales relevantes.
+Sigue una sección de feedback y preguntas y respuestas.</p>
+<p>Los archivos de temas de discusión y presentaciones se pueden encontrar en las descripciones de eventos de
+meetups pasados y en este sitio web. La parte de discusión del evento NUNCA se graba. Se recomienda tener un conocimiento firme de los
+conceptos básicos de Bitcoin para extraer el máximo valor de nuestros eventos Socráticos.</p>
+<p>Por favor, contacta a los organizadores si deseas presentar en un futuro evento Socrático o tienes un tema
+recomendado para discusión: hola@b4os.dev o encuentra el PR en el
+y agrega un comentario.</p>
+<p>Hay diferentes requisitos para las presentaciones dependiendo de la
+naturaleza del proyecto. Revisa nuestra lista de sugerencias <a href="/about/find-topics">dónde encontraras temas</a> para futuros seminarios.</p>
+</div>
+</section>
+
+
+      <footer class="Footer">
+        <div class="Footer-border"></div>
+        <div class="Footer-inner">
+          <div class="Footer-source">
+            <a
+              href="https:&#x2F;&#x2F;github.com&#x2F;LibreriadeSatoshi&#x2F;bitdevs-lat"
+              target="_blank"
+              rel="noopener nofollow"
+              >Source available on Github</a
+            >
+          </div>
+          <div class="Footer-rss">
+            <a href="/rss.xml">RSS Feed</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script type="text/javascript">
+      document.addEventListener("DOMContentLoaded", () => {
+        const themeToggle = document.getElementById("theme-toggle");
+        const body = document.body;
+
+        if (!themeToggle) {
+          console.error("El botón 'theme-toggle' no fue encontrado en el DOM.");
+          return;
+        }
+
+        const STORAGE_KEY = "theme";
+        
+        const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+
+        let currentTheme = localStorage.getItem(STORAGE_KEY);
+        if (currentTheme === null) {
+          currentTheme = prefersDarkScheme.matches ? "dark" : "light";
+        }
+
+        body.classList.toggle("dark", currentTheme === "dark");
+        themeToggle.textContent = currentTheme === "dark" ? "☀️" : "🌙";
+
+        themeToggle.addEventListener("click", () => {
+          body.classList.toggle("dark");
+          const newTheme = body.classList.contains("dark") ? "dark" : "light";
+          localStorage.setItem(STORAGE_KEY, newTheme);
+          themeToggle.textContent = newTheme === "dark" ? "☀️" : "🌙";
+        });
+
+        prefersDarkScheme.addEventListener("change", (e) => {
+            if (localStorage.getItem(STORAGE_KEY) === null) {
+                const newTheme = e.matches ? "dark" : "light";
+                body.classList.toggle("dark", e.matches);
+                themeToggle.textContent = newTheme === "dark" ? "☀️" : "🌙";
+            }
+        });
+      });
+    </script>
+  </body>
+</html>
