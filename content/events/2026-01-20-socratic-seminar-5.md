@@ -1,13 +1,13 @@
 +++
 title = "Bitdevs Latino Seminario Socratico #5"
-date = 2026-01-07
+date = 2026-01-20
 [extra]
 meetup_id = ""
 +++
 
 ### Horario
 
-📅 Miércoles, 07 de Enero
+📅 Martes, 20 de Enero
 
 - 🏙️ 9:00 am – 11:00 pm Los Ángeles (PST)
 - 🇲🇽 11:00 am – 1:00 pm CDMX
