@@ -19,7 +19,7 @@ build_search_index = false
 
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = true
+highlight_code = { enabled = true }
 
 [extra]
 # Put all your custom variables here
