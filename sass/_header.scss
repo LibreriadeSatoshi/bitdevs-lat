@@ -28,10 +28,12 @@
     }
     
     &-img {
-      height: 3.8rem;
+      height: 5.5rem;
+      margin-right: 1rem;
 
       @media (max-width: $small-screen) {
-        height: 2rem;
+        height: 3rem;
+        margin-right: 0.5rem;
       }
     }
   }
