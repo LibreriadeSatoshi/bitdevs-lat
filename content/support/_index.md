@@ -9,7 +9,7 @@ description = "Our supporters"
 <div class="SponsorGrid">
   <div class="SponsorGrid-item">
     <a href="https://libreriadesatoshi.com/">
-      <img src="/libre_sato_logo.png" alt="Libreria de satoshi Logo">
+      <img src="/libreria-de-satoshi.png" alt="Libreria de satoshi Logo">
     </a>
     <h6>La Librería de Satoshi hace la educación técnica de Bitcoin accesible, con cursos y seminarios.</h6>
   </div>
