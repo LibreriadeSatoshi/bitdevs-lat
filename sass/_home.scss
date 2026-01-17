@@ -49,6 +49,10 @@
   gap: 2rem; // Space between grid items
   margin-top: 2rem;
   margin-bottom: 4rem;
+  max-width: 800px; /* Added: Set a max-width for the grid */
+  margin-left: auto; /* Added: Center the grid horizontally */
+  margin-right: auto; /* Added: Center the grid horizontally */
+  justify-items: center; /* Added: Center grid items within their cells */
 
   @media (max-width: $mid-screen) {
     grid-template-columns: 1fr; // One column on smaller screens
