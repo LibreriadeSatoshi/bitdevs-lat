@@ -80,10 +80,18 @@ Grants y entrenamiento:
 
 - [ecmult_multi: reduce strauss memory usage by 30%](https://github.com/bitcoin-core/secp256k1/pull/1761)
 
+#### Bitcoin Dev Mailing List
+- [BIP idea: Timelock-Recovery storage format](https://groups.google.com/g/bitcoindev/c/K1NpJp9_BYk)
+- [Reducing RAM requirements with dynamic dust](https://groups.google.com/g/bitcoindev/c/PMtM_I3qwqg)
+
 #### Delving Bitcoin
 
 - [Miniscript Studio - a fulll IDE based on Rust Miniscript](https://delvingbitcoin.org/t/miniscript-studio-a-fulll-ide-based-on-rust-miniscript/2086)
 - [Comparing the performance of ECDSA signature validation in OpenSSL vs. libsecp256k1 over the last decade](https://delvingbitcoin.org/t/comparing-the-performance-of-ecdsa-signature-validation-in-openssl-vs-libsecp256k1-over-the-last-decade/2087)
+- [A Game-Theoretic Approach to Bitcoin’s Valuation in Equilibrium](https://delvingbitcoin.org/t/a-game-theoretic-approach-to-bitcoin-s-valuation-in-equilibrium/1547)
+- [Using Ark as a channel factory](https://delvingbitcoin.org/t/ark-as-a-channel-factory-compressed-liquidity-management-for-improved-payment-feasibility/2179)
+- [What is the importance of running a node?](https://delvingbitcoin.org/t/what-is-the-importance-of-running-a-node/2079)
+- [GitLab Backups for Bitcoin Core repository](https://delvingbitcoin.org/t/gitlab-backups-for-bitcoin-core-repository/624/1)
 
 #### LND
 
@@ -92,6 +100,8 @@ Grants y entrenamiento:
 
 #### Security
 
+- [Bitcoin Core wallet migration bug](https://bitcoincore.org/en/2026/01/05/wallet-migration-bug/)
+- [Blockstream Jade Security Disclosure](https://blog.blockstream.com/jade-security-disclosure/)
 - [LND: Infinite Inbox DoS](https://morehouse.github.io/lightning/lnd-infinite-inbox-dos/)
 - [An Independent Security Audit of Bitcoin Core](https://brink.dev/blog/2025/11/19/bitcoin-core-security-audit/)
 
@@ -99,6 +109,7 @@ Grants y entrenamiento:
 
 - [Quantum Doomsday Clock](https://quantumdoomclock.com/)
 - [Cloudflare outage on November 18, 2025](https://blog.cloudflare.com/18-november-2025-outage/)
+- [BitMEX research: 64 byte transactions](https://www.bitmex.com/blog/64-Byte-Transactions)
 
 #### Releases
 
