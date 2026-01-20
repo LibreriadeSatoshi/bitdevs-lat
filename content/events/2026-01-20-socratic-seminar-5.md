@@ -57,7 +57,7 @@ Los temas provienen de varias fuentes, como [Bitcoin Optech](https://bitcoinops.
 
 Grants y entrenamiento:
 
-- [B4OS](B4os.dev)
+- [B4OS](https://b4os.dev/)
 
 ### Estadísticas de la Red
 
