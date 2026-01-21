@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    <meta content="utf-8" http-equiv="encoding" />
+    <title>BitDevs Latino</title>
+
+    <meta
+      name="viewport"
+      content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="Site">
+      <header class="Header">
+        <div class="Header-inner">
+          <div class="Header-logo">
+            <a href="/">
+              <img
+                src="/bitdevs-latino.png"
+                alt="BitDevs Latino Logo"
+                class="Header-logo-img"
+              />
+              BitDevs Latino</a
+            >
+          </div>
+          <nav class="Header-nav">
+            <a href="/about">Acerca</a>
+            <a href="/support">Apoyo</a>
+            <button
+              id="theme-toggle"
+              aria-label="change dark/ligth mode"
+            ></button>
+          </nav>
+        </div>
+        <div class="Header-border"></div>
+      </header>
+
+      
+<section>
+    <div class="page-content">
+        <h4 id="donde-encontrar-temas-para-futuros-seminarios">Dónde Encontrar Temas para Futuros Seminarios</h4>
+<p>A continuación hay una lista de lugares sugeridos para encontrar temas interesantes para
+seminarios socráticos para discutir en los meetups de BitDev BA. Si tienes otros para agregar a la lista, háznoslo saber.</p>
+<h3 id="listas-de-correo-boletines-preguntas-y-respuestas">Listas de Correo, Boletines, Preguntas y Respuestas</h3>
+<ul>
+<li><a rel="external" href="https://delvingbitcoin.org/">delving bitcoin</a></li>
+<li><a rel="external" href="https://groups.google.com/g/bitcoindev">lista de correo bitcoin-dev</a></li>
+<li><a rel="external" href="https://lists.linuxfoundation.org/mailman/listinfo/lightning-dev">lista de correo lightning-dev</a></li>
+<li><a rel="external" href="https://bitcoinops.org/">Bitcoin Optech</a></li>
+<li><a rel="external" href="https://bitcoin.stackexchange.com/">Bitcoin Stack Exchange</a></li>
+</ul>
+<h3 id="repositorios-git">Repositorios Git</h3>
+<ul>
+<li><a rel="external" href="https://github.com/bitcoin/bitcoin">Bitcoin Core</a></li>
+<li><a rel="external" href="https://github.com/ElementsProject/lightning">Core Lightning</a></li>
+<li><a rel="external" href="https://github.com/lightningnetwork/lnd">Lightning Network Daemon</a></li>
+<li><a rel="external" href="https://github.com/ACINQ/eclair">Eclair</a></li>
+<li><a rel="external" href="https://github.com/rust-bitcoin">rust-bitcoin</a></li>
+<li><a rel="external" href="https://github.com/orgs/lightningdevkit">Lightning Dev Kit</a></li>
+<li><a rel="external" href="https://github.com/bitcoindevkit">Bitcoin Dev Kit</a></li>
+</ul>
+<h3 id="meetups-en-espanol">Meetups en Español:</h3>
+<p><a rel="external" href="https://bitdevsbarcelona.org">BitDevs Barcelona</a>
+<a rel="external" href="https://www.bitdevsba.org">BitDevs BA</a>
+<a rel="external" href="https://www.cdmxbitdevs.org">CDMX BitDevs</a>
+<a rel="external" href="https://bitdevscordoba.org">BitDevs Córdoba</a>
+<a rel="external" href="https://bitdevelsalvador.com">BitDevs El Salvador</a>
+<a rel="external" href="https://bitdevs.btcgdl.com">BitDevs GDL (BTC GDL)</a>
+<a rel="external" href="https://santiagobitdevs.com">Santiago BitDevs</a>
+<a rel="external" href="https://bitdevsmadrid.org">BitDevs Madrid</a></p>
+<h3 id="meetups-en-ingles">Meetups en Inglés:</h3>
+<ul>
+<li><a rel="external" href="https://bitdevs.org">BitDevs NYC</a></li>
+<li><a rel="external" href="https://www.sfbitcoindevs.org/">BitDevs SF</a></li>
+<li><a rel="external" href="https://www.meetup.com/London-Bitcoin-Devs/">BitDevs London</a></li>
+<li><a rel="external" href="http://chibitdevs.org/">BitDevs Chicago</a></li>
+<li><a rel="external" href="https://www.meetup.com/Bitcoin_Sydney/">BitDevs Sydney</a></li>
+<li><a rel="external" href="https://bitdevs.berlin/">BitDevs Berlin</a></li>
+<li><a rel="external" href="https://bitdevsla.org">BitDevs Los Angeles</a></li>
+</ul>
+<h3 id="freenode-irc"><a rel="external" href="https://freenode.net/">Freenode IRC</a></h3>
+<ul>
+<li>#bitcoin-core-pr-reviews</li>
+<li>#bitcore-core-dev</li>
+</ul>
+<h3 id="bitcoin-core-review-club">Bitcoin Core Review Club</h3>
+<ul>
+<li><a rel="external" href="https://bitcoincore.reviews/">Bitcoin Core Review Club</a></li>
+</ul>
+
+    </div>
+</section>
+
+
+      <footer class="Footer">
+        <div class="Footer-border"></div>
+        <div class="Footer-inner">
+          <div class="Footer-source">
+            <a
+              href="https:&#x2F;&#x2F;github.com&#x2F;LibreriadeSatoshi&#x2F;bitdevs-lat"
+              target="_blank"
+              rel="noopener nofollow"
+              >Source available on Github</a
+            >
+          </div>
+          <div class="Footer-rss">
+            <a href="/rss.xml">RSS Feed</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script type="text/javascript">
+      document.addEventListener("DOMContentLoaded", () => {
+        const themeToggle = document.getElementById("theme-toggle");
+        const body = document.body;
+
+        if (!themeToggle) {
+          console.error("El botón 'theme-toggle' no fue encontrado en el DOM.");
+          return;
+        }
+
+        const STORAGE_KEY = "theme";
+        
+        const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+
+        let currentTheme = localStorage.getItem(STORAGE_KEY);
+        if (currentTheme === null) {
+          currentTheme = prefersDarkScheme.matches ? "dark" : "light";
+        }
+
+        body.classList.toggle("dark", currentTheme === "dark");
+        themeToggle.textContent = currentTheme === "dark" ? "☀️" : "🌙";
+
+        themeToggle.addEventListener("click", () => {
+          body.classList.toggle("dark");
+          const newTheme = body.classList.contains("dark") ? "dark" : "light";
+          localStorage.setItem(STORAGE_KEY, newTheme);
+          themeToggle.textContent = newTheme === "dark" ? "☀️" : "🌙";
+        });
+
+        prefersDarkScheme.addEventListener("change", (e) => {
+            if (localStorage.getItem(STORAGE_KEY) === null) {
+                const newTheme = e.matches ? "dark" : "light";
+                body.classList.toggle("dark", e.matches);
+                themeToggle.textContent = newTheme === "dark" ? "☀️" : "🌙";
+            }
+        });
+      });
+    </script>
+  </body>
+</html>
