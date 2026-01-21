@@ -40,7 +40,7 @@ Grants y entrenamiento: [B4OS](B4os.dev)
 - [non standard txs dataset](https://bitcoin-data.github.io/non-standard-transactions/)
 - [mining centralization index](https://mainnet.observer/charts/mining-pools-centralization-index-with-proxy-pools/?c)
 
-##Read me and contribute 
+## Read me and contribute 
 
 To clone this website and start contribuiting follow the next mini-tutorial: 
 
