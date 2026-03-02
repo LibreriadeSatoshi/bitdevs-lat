@@ -78,6 +78,7 @@ Grants y entrenamiento:
 
 **Bitcoin Core**
 - [fees: enable `CBlockPolicyEstimator` return sub 1 sat/vb fee rate estimates](https://github.com/bitcoin/bitcoin/pull/33199)
+- [Attack on I2P: Bitcoin nodes not reachable via I2P](https://bnoc.xyz/t/attack-on-i2p-bitcoin-nodes-not-reachable-via-i2p/79/4)
 
 **Lightning**
 - [Split splice initiation into two phases](https://github.com/lightningdevkit/rust-lightning/pull/4290)
