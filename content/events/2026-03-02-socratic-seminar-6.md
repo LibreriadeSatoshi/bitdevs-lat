@@ -76,6 +76,27 @@ Grants y entrenamiento:
 ## Temas
 
 
+**Bitcoin Core**
+- [fees: enable `CBlockPolicyEstimator` return sub 1 sat/vb fee rate estimates](https://github.com/bitcoin/bitcoin/pull/33199)
+
+**Lightning**
+- [Split splice initiation into two phases](https://github.com/lightningdevkit/rust-lightning/pull/4290)
+- [Switch `SplicePrototype` feature flag to the prod feature bit](https://github.com/lightningdevkit/rust-lightning/pull/4387)
+
+**CVEs and Research**
+- [Binohash](https://robinlinus.com/binohash.pdf)
+- [Binohash: Transaction Introspection Without Softforks](https://delvingbitcoin.org/t/binohash-transaction-introspection-without-softforks)
+- [PQ provers for P2PKH outputs](https://delvingbitcoin.org/t/pq-provers-for-p2pkh-outputs)
+- [Boomerang: Bitcoin Cold Storage with Built-In Coercion Resistance](https://delvingbitcoin.org/t/boomerang-bitcoin-cold-storage-with-built-in-coercion-resistance)
+
+**Layer 2**
+- [Stateless VTXO Verification: Decoupling Custody from Implementation-Specific Stacks](https://delvingbitcoin.org/t/stateless-vtxo-verification-decoupling-custody-from-implementation-specific-stacks)
+- [Ciphera - a Bitcoin ZK Appchain Implementation](https://delvingbitcoin.org/t/ciphera-a-bitcoin-zk-appchain-implementation)
+
+**Miscellaneous**
+- [Using AI tooling for code review](https://delvingbitcoin.org/t/using-ai-tooling-for-code-review)
+- [Proposal: Consensus rule to recover 79,956 BTC stolen from MtGox](https://bitcointalk.org/index.php?topic=5575915)
+
 
 #### Releases
 
