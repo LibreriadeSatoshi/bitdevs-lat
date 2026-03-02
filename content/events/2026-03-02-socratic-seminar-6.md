@@ -79,6 +79,7 @@ Grants y entrenamiento:
 **Bitcoin Core**
 - [fees: enable `CBlockPolicyEstimator` return sub 1 sat/vb fee rate estimates](https://github.com/bitcoin/bitcoin/pull/33199)
 - [Attack on I2P: Bitcoin nodes not reachable via I2P](https://bnoc.xyz/t/attack-on-i2p-bitcoin-nodes-not-reachable-via-i2p/79/4)
+- [Incremental mutation testing in the Bitcoin Core](https://delvingbitcoin.org/t/incremental-mutation-testing-in-the-bitcoin-core/2197)
 
 **Lightning**
 - [Split splice initiation into two phases](https://github.com/lightningdevkit/rust-lightning/pull/4290)
@@ -93,10 +94,13 @@ Grants y entrenamiento:
 **Layer 2**
 - [Stateless VTXO Verification: Decoupling Custody from Implementation-Specific Stacks](https://delvingbitcoin.org/t/stateless-vtxo-verification-decoupling-custody-from-implementation-specific-stacks)
 - [Ciphera - a Bitcoin ZK Appchain Implementation](https://delvingbitcoin.org/t/ciphera-a-bitcoin-zk-appchain-implementation)
+- [Thoughts on L2 Rollups and ZkProofs (Comparisson of 3 of them)
+](https://www.scribd.com/presentation/973037182/Citrea-vs-Stacks-vs-Rootstock) page 6
 
 **Miscellaneous**
 - [Using AI tooling for code review](https://delvingbitcoin.org/t/using-ai-tooling-for-code-review)
 - [Proposal: Consensus rule to recover 79,956 BTC stolen from MtGox](https://bitcointalk.org/index.php?topic=5575915)
+- [Hourglass V2 Update](https://github.com/cryptoquick/bips/blob/hourglass-v2/bip-hourglass-v2.mediawiki)
 
 
 #### Releases
