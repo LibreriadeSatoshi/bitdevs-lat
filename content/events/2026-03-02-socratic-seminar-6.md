@@ -84,6 +84,9 @@ Grants y entrenamiento:
 - [Split splice initiation into two phases](https://github.com/lightningdevkit/rust-lightning/pull/4290)
 - [Switch `SplicePrototype` feature flag to the prod feature bit](https://github.com/lightningdevkit/rust-lightning/pull/4387)
 
+**Peer observer**
+- [Mining Pool Behavior during Forks](https://b10c.me/blog/014-mining-pool-behavior-during-forks/)
+
 **CVEs and Research**
 - [Binohash](https://robinlinus.com/binohash.pdf)
 - [Binohash: Transaction Introspection Without Softforks](https://delvingbitcoin.org/t/binohash-transaction-introspection-without-softforks)
