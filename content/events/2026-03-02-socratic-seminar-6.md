@@ -7,7 +7,7 @@ meetup_id = ""
 
 ### Horario
 
-📅 Lunes, 2 de Marzo
+📅 Viernes, 6 de Marzo
 
 - 🏙️ 9:00 am – 11:00 pm Los Ángeles (PST)
 - 🇲🇽 11:00 am – 1:00 pm CDMX
