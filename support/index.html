@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    <meta content="utf-8" http-equiv="encoding" />
+    <title>BitDevs Latino</title>
+
+    <meta
+      name="viewport"
+      content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="Site">
+      <header class="Header">
+        <div class="Header-inner">
+          <div class="Header-logo">
+            <a href="/">
+              <img
+                src="/bitdevs-latino.png"
+                alt="BitDevs Latino Logo"
+                class="Header-logo-img"
+              />
+              BitDevs Latino</a
+            >
+          </div>
+          <nav class="Header-nav">
+            <a href="/about">Acerca</a>
+            <a href="/support">Apoyo</a>
+            <button
+              id="theme-toggle"
+              aria-label="change dark/ligth mode"
+            ></button>
+          </nav>
+        </div>
+        <div class="Header-border"></div>
+      </header>
+
+      
+<section>
+    <div class="page-content"><div class="SponsorSection-header">
+    <h2>Un Agradecimiento Especial a Nuestros Patrocinadores.</h2>
+</div>
+<div class="SponsorGrid">
+  <div class="SponsorGrid-item">
+    <a href="https://libreriadesatoshi.com/">
+      <img src="/libreria-de-satoshi.png" alt="Libreria de satoshi Logo">
+    </a>
+    <h6>La Librería de Satoshi hace la educación técnica de Bitcoin accesible, con cursos y seminarios.</h6>
+  </div>
+  <div class="SponsorGrid-item">
+      <a href="https://b4os.dev">
+        <img src="/b4os.png" alt="B4OS Logo">
+      </a>
+    <h6>Programa gratutito de entrenamiento tecnico en Bitcoin para desarrolladores.</h6>
+  </div>
+</div></div>
+</section>
+
+
+      <footer class="Footer">
+        <div class="Footer-border"></div>
+        <div class="Footer-inner">
+          <div class="Footer-source">
+            <a
+              href="https:&#x2F;&#x2F;github.com&#x2F;LibreriadeSatoshi&#x2F;bitdevs-lat"
+              target="_blank"
+              rel="noopener nofollow"
+              >Source available on Github</a
+            >
+          </div>
+          <div class="Footer-rss">
+            <a href="/rss.xml">RSS Feed</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script type="text/javascript">
+      document.addEventListener("DOMContentLoaded", () => {
+        const themeToggle = document.getElementById("theme-toggle");
+        const body = document.body;
+
+        if (!themeToggle) {
+          console.error("El botón 'theme-toggle' no fue encontrado en el DOM.");
+          return;
+        }
+
+        const STORAGE_KEY = "theme";
+        
+        const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+
+        let currentTheme = localStorage.getItem(STORAGE_KEY);
+        if (currentTheme === null) {
+          currentTheme = prefersDarkScheme.matches ? "dark" : "light";
+        }
+
+        body.classList.toggle("dark", currentTheme === "dark");
+        themeToggle.textContent = currentTheme === "dark" ? "☀️" : "🌙";
+
+        themeToggle.addEventListener("click", () => {
+          body.classList.toggle("dark");
+          const newTheme = body.classList.contains("dark") ? "dark" : "light";
+          localStorage.setItem(STORAGE_KEY, newTheme);
+          themeToggle.textContent = newTheme === "dark" ? "☀️" : "🌙";
+        });
+
+        prefersDarkScheme.addEventListener("change", (e) => {
+            if (localStorage.getItem(STORAGE_KEY) === null) {
+                const newTheme = e.matches ? "dark" : "light";
+                body.classList.toggle("dark", e.matches);
+                themeToggle.textContent = newTheme === "dark" ? "☀️" : "🌙";
+            }
+        });
+      });
+    </script>
+  </body>
+</html>
